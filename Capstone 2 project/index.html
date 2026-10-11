@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Córdoba | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Barra de navegación -->
+
+    <header>
+      <nav>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#inicio" class="nav-link active">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre-mi" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#proyectos" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacto" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección principal -->
+      <section id="inicio" class="hero">
+        <div class="info">
+          <h1>
+            Hola, soy John Córdoba <span class="emoji_saludando">👋</span>
+          </h1>
+          <p>
+            Desarrollador frontend junior y tecnólogo en Desarrollo de Software.
+            He creado proyectos con HTML, CSS, JavaScript y Vue, y tengo
+            experiencia en soporte IT.
+          </p>
+          <div class="enlaces-info">
+            <a href="#proyectos" class="boton activo"> Ver mis proyectos</a>
+            <a href="#sobre-mi" class="boton"> Sobre mí</a>
+          </div>
+        </div>
+        <!-- img -->
+        <div class="img-info">
+          <img
+            src="./assets/premium_photo-1676998930667-cab56c8fa602.avif"
+            alt="Persona usando una computadora"
+          />
+        </div>
+      </section>
+      <!-- Sobre mí -->
+      <section id="sobre-mi" class="section">
+        <h2>Perfil</h2>
+        <h3>En formación hacia el desarrollo full stack</h3>
+        <div class="columnas">
+          <!-- Texto -->
+          <div class="section-1">
+            <h3>About me</h3>
+            <p>
+              Soy tecnólogo en Desarrollo de Software y disfruto resolver
+              problemas técnicos, aprender nuevas herramientas y colaborar con
+              respeto y buena comunicación. Actualmente estoy ampliando mis
+              conocimientos de backend. En mi tiempo libre me gustan los
+              videojuegos, el anime y los deportes.
+            </p>
+          </div>
+          <div class="section-2">
+            <img
+              src="./assets/premium_photo-1676998930667-cab56c8fa602.avif"
+              alt="Persona usando una computadora"
+            />
+          </div>
+
+          <div class="section-3">
+            <h3>Detalles</h3>
+            <p><strong>Nombre:</strong><br />John Cordoba</p>
+            <p><strong>Edad:</strong><br />22 años</p>
+            <p><strong>Ubicación:</strong><br />Bogotá D.C</p>
+
+            <ul class="redes">
+              <li>
+                <a
+                  href="https://github.com/JohnCordoba2004"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./assets/svg/github.svg"
+                    alt="github"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/johncordoba2004"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./assets/svg/linkedIn.svg"
+                    alt="linkedIn"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:johncordobagor@outlook.com">
+                  <img
+                    src="./assets/svg/mail.svg"
+                    alt="mail"
+                    width="40"
+                    height="40"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="grid-cols">
+          <!-- Habilidades de frontend -->
+          <div class="frontend">
+            <h3>Frontend</h3>
+            <ul class="lista">
+              <li>HTML<img src="./assets/svg/html.svg" alt="html" /></li>
+              <li>CSS<img src="./assets/svg/css.svg" alt="css" /></li>
+              <li>
+                JavaScript<img
+                  src="./assets/svg/javascript.svg"
+                  alt="javascript"
+                />
+              </li>
+
+              <li>
+                Tailwind
+                <img src="./assets/svg/tailwind.svg" alt="tailwind" />
+              </li>
+              <li>React<img src="./assets/svg/react.svg" alt="react" /></li>
+            </ul>
+          </div>
+          <!-- Habilidades de backend -->
+          <div class="backend">
+            <h3>Backend</h3>
+            <ul class="lista">
+              <li>
+                MongoDB
+                <img src="./assets/svg/mongodb.svg" alt="mongodb" />
+              </li>
+              <li>
+                APIs REST<img src="./assets/svg/rest-api.svg" alt="rest-api" />
+              </li>
+            </ul>
+          </div>
+          <!-- Herramientas -->
+          <div class="tools">
+            <h3>Tools</h3>
+            <ul class="lista">
+              <li>Git<img src="./assets/svg/git.svg" alt="git" /></li>
+              <li>
+                Github
+                <img src="./assets/svg/github-claro.svg" alt="github" />
+              </li>
+            </ul>
+          </div>
+          <!-- Idiomas -->
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul class="lista">
+              <li>Español (nativo)</li>
+              <li>Inglés: B1 (en curso)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section id="proyectos" class="section">
+        <h2>Projects</h2>
+        <div class="tres-columnas">
+          <div class="proyecto-1">
+            <img
+              src="https://res.cloudinary.com/diro0cqpe/image/upload/v1787658053/56035a73-0a80-4a53-9b60-8042cc0cad07.png"
+              alt="Proyecto 1"
+            />
+            <h3>PetSalud</h3>
+            <p>
+              Una plataforma web para la gestión de servicios veterinarios, con
+              una interfaz pública y un panel administrativo conectado a un
+              backend propio.
+            </p>
+
+            <div>
+              <ul class="tecnologias">
+                <li>Vue</li>
+                <li>TypeScript</li>
+                <li>Node.Js</li>
+                <li>MongoDB</li>
+                <li>API REST</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="proyecto-2">
+            <img src="#" alt="Próximamente" />
+            <h3>Próximamente</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              enim, cupiditate nostrum cum quidem commodi veniam quam. Illo
+              libero laboriosam veritatis numquam eius repudiandae neque saepe
+              minima obcaecati, perspiciatis ad.
+            </p>
+
+            <div>
+              <ul class="tecnologias">
+                <li>Próximamente</li>
+                <li>Próximamente</li>
+                <li>Próximamente</li>
+              </ul>
+            </div>
+          </div>
+          <div class="proyecto-3">
+            <img src="#" alt="Próximamente" />
+            <h3>Próximamente</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              enim, cupiditate nostrum cum quidem commodi veniam quam. Illo
+              libero laboriosam veritatis numquam eius repudiandae neque saepe
+              minima obcaecati, perspiciatis ad.
+            </p>
+
+            <div>
+              <ul class="tecnologias">
+                <li>Próximamente</li>
+                <li>Próximamente</li>
+                <li>Próximamente</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="section">
+        <h2>Contact me</h2>
+        <ul class="contacto">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/johncordoba2004"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/JohnCordoba2004"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li><a href="mailto:johncordobagor@outlook.com">Mail</a></li>
+          <li>
+            <a href="./assets/cv/CV-John.pdf" target="_blank">Descargar CV</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer">
+      <p>&copy; 2026 John Córdoba</p>
+    </footer>
+    <!-- Script -->
+  </body>
+</html>
