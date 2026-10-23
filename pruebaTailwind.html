@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      class="bg-linear-to-r from-blue-600 to-amber-400 text-white py-20 px-6 text-center"
+    >
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Prueba Tailwindcss</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+        Usaremos todo lo que nos ofrece tailwind
+      </p>
+
+      <!-- Aspect-Radio -->
+      <h2 class="text-2xl md:text-4xl font-bold mb-4">Aspect Ratio</h2>
+      <div class="flex justify-center w-auto h-64 gap-10 mt-8">
+        <iframe
+          src="https://www.youtube.com/embed/p7j-iOhl8GI?si=Pvh9VIAwu6oIMflc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          class="aspect-video"
+        ></iframe>
+        <img
+          src="https://4kwallpapers.com/images/walls/thumbs_3t/19055.jpg"
+          alt="Imagen de Goku Chiquito"
+          class="aspect-1 w-auto h-64 object-cover"
+        />
+      </div>
+    </section>
+
+    <!-- Columns -->
+    <div>
+      <div class="not-prose isolate">
+        <figure class="flex flex-col gap-2.5 rounded-xl p-2">
+          <div class="not-prose overflow-auto rounded-lg p-8">
+            <div class="@container max-w-4xl mx-auto">
+              <h2 class="text-2xl md:text-4xl font-bold mb-4">Columns</h2>
+              <div class="columns-1 gap-8 @md:columns-2 @xl:columns-3 *:mb-12">
+                <img
+                  class="mb-8 w-full break-inside-avoid aspect-3/2 rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/27164.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-square rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/27358.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-square rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/26035.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-square rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/26035.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-3/2 rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/27164.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-square rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/27358.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-square rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/27358.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-square rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/26035.jpg"
+                /><img
+                  class="mb-8 w-full break-inside-avoid aspect-3/2 rounded-lg object-cover"
+                  src="https://4kwallpapers.com/images/walls/thumbs_3t/27164.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </div>
+
+    <!--  -->
+  </body>
+</html>

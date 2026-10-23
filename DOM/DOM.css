@@ -1,0 +1,12 @@
+button:active {
+  color: red;
+}
+
+#list .item {
+  list-style: none;
+  text-decoration: none;
+}
+
+.huge{
+  font-size: 10rem;
+}
